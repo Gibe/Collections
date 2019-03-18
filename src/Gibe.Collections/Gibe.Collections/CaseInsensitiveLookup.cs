@@ -6,7 +6,7 @@ namespace Gibe.Collections
 {
 	public class CaseInsensitiveLookup<T>
 	{
-		ILookup<string, T> _lookup;
+		private readonly ILookup<string, T> _lookup;
 
 		public CaseInsensitiveLookup(IEnumerable<T> source, Func<T, string> keySelector)
 		{
