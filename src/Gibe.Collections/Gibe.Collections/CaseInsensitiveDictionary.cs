@@ -15,6 +15,9 @@ namespace Gibe.Collections
 		public CaseInsensitiveDictionary(IDictionary<string, T> dictionary)
 			: base(dictionary, StringComparer.OrdinalIgnoreCase) { }
 
+		public CaseInsensitiveDictionary(IEnumerable<T> source, Func<T, string> keySelector)
+			: base(source.ToDictionary(keySelector), StringComparer.OrdinalIgnoreCase) { }
+
 		public Dictionary<string, T> ToDictionary() => 
 			this.ToDictionary(d => d.Key, d=> d.Value);
 	}

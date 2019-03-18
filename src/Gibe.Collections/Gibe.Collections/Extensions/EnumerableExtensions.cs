@@ -9,5 +9,10 @@ namespace Gibe.Collections.Extensions
 		{
 			return new CaseInsensitiveLookup<T>(source, keySelector);
 		}
+
+		public static CaseInsensitiveDictionary<T> ToCaseInsensitiveDictionary<T>(this IEnumerable<T> source, Func<T, string> keySelector)
+		{
+			return new CaseInsensitiveDictionary<T>(source, keySelector);
+		}
 	}
 }
