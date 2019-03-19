@@ -13,6 +13,11 @@ namespace Gibe.Collections
 			_lookup = source.ToLookup(keySelector, StringComparer.OrdinalIgnoreCase);
 		}
 
+		public CaseInsensitiveLookup(IEnumerable<T> source, Func<T, string> keySelector, Func<T, T> valueSelector)
+		{
+			_lookup = source.ToLookup(keySelector, valueSelector, StringComparer.OrdinalIgnoreCase);
+		}
+
 		public IEnumerable<T> this[string key] => _lookup[key];
 	}
 }
