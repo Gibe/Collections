@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CaseInsensitiveDictionary.cs" />
     <Compile Include="CaseInsensitiveLookup.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
