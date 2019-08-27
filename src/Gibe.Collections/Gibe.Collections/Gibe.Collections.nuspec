@@ -11,7 +11,4 @@
 		<dependencies>
 		</dependencies>
 	</metadata>
-	<files>
-		<file src="bin\Release\Gibe.Collections.dll" target="lib" />
-	</files>
 </package>
