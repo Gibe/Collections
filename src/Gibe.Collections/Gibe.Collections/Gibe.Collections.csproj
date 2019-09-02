@@ -1,10 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
-		<Authors>Gibe Digital</Authors>
-		<Description>Useful collection extensions.</Description>
-		<Copyright>Gibe Digital</Copyright>
 	</PropertyGroup>
+	
+	<PropertyGroup>
+		<PackageId>Gibe.Collections</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>Gibe Collections</PackageTags>
+	</PropertyGroup>
+	
 	<ItemGroup>
 	  <Folder Include="Properties\" />
 	</ItemGroup>
