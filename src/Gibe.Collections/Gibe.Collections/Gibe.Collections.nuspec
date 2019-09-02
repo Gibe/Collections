@@ -8,10 +8,10 @@
 		<description>
 			Contains various lovely extensions to the base .NET collections
 		</description>
-		<files>
-			<file src="bin\Release\netstandard2.0\Gibe.Collections.dll" target="lib\netstandard2.0" />
-		</files>
 		<dependencies>
 		</dependencies>
 	</metadata>
+	<files>
+		<file src="bin\Release\netstandard2.0\Gibe.Collections.dll" target="lib\netstandard2.0" />
+	</files>
 </package>
