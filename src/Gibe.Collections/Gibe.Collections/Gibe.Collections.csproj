@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<Authors>Gibe Digital</Authors>
+		<Description>Useful collection extensions.</Description>
+		<Copyright>Gibe Digital</Copyright>
 	</PropertyGroup>
-
 	<ItemGroup>
 	  <Folder Include="Properties\" />
 	</ItemGroup>
